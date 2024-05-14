@@ -12,7 +12,7 @@ const App = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            console.log('test')
+            console.log('new test')
             setImage((prevState) => prevState === images.face ? images.back : images.face)
         }, 1000 * 60)
 
