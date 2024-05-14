@@ -14,7 +14,7 @@ const App = () => {
         const interval = setInterval(() => {
             console.log('test')
             setImage((prevState) => prevState === images.face ? images.back : images.face)
-        }, 1000 * 60 * 3)
+        }, 1000 * 60)
 
         return () => clearInterval(interval)
     }, [])
