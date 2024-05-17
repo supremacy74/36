@@ -9,6 +9,7 @@
 .wrapper {
   display: flex;
   background: white;
+  padding-inline: 7.5rem;
 }
 
 .image {
